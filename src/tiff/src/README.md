@@ -1,0 +1,1 @@
+Unpack tiff-4.0.10.tar.gz to this directory
