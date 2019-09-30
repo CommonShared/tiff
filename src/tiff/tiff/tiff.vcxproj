@@ -99,6 +99,10 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>XCOPY $(SolutionDir)src\libtiff\tif_config.vc.h $(SolutionDir)src\libtiff\tif_config.h /Y
+XCOPY $(SolutionDir)src\libtiff\tiffconf.vc.h $(SolutionDir)src\libtiff\tiffconf.h /Y</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
@@ -114,6 +118,10 @@
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>XCOPY $(SolutionDir)src\libtiff\tif_config.vc.h $(SolutionDir)src\libtiff\tif_config.h /Y
+XCOPY $(SolutionDir)src\libtiff\tiffconf.vc.h $(SolutionDir)src\libtiff\tiffconf.h /Y</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -133,6 +141,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>XCOPY $(SolutionDir)src\libtiff\tif_config.vc.h $(SolutionDir)src\libtiff\tif_config.h /Y
+XCOPY $(SolutionDir)src\libtiff\tiffconf.vc.h $(SolutionDir)src\libtiff\tiffconf.h /Y</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
@@ -152,6 +164,10 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
+    <PreBuildEvent>
+      <Command>XCOPY $(SolutionDir)src\libtiff\tif_config.vc.h $(SolutionDir)src\libtiff\tif_config.h /Y
+XCOPY $(SolutionDir)src\libtiff\tiffconf.vc.h $(SolutionDir)src\libtiff\tiffconf.h /Y</Command>
+    </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\libtiff\tif_aux.c" />
